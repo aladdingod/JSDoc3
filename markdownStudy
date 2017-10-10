@@ -1,0 +1,13 @@
+### git 中本地与远程库的关联与取消
+1.创建本地关联库：JSDoc3_Study<br>
+**cd进入该目录，git init创建本地关联库**<br>
+2.取消本地目录下的关联的远程库<br>
+**git remote remove origin**<br>
+3.在本地目录下关联远程repository<br>
+**git remote add origin SSH**<br>
+4.修改文件<br>
+**git add .<br>
+git commit -m"测试"<br>
+git push --set-upstream origin master<br>
+输入github密码
+**
